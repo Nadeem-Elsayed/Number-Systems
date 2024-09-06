@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <title>Number Systems</title>
+        <link rel="stylesheet" href="NumberSystems.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 id = "title">Number System Converter</h1>
+        <div id="content">
+            <div id="input-areas">
+                <div id="decimal">
+                    <h3 class = "header-3">Decimal</h3>
+                    <input type="number" id = "decimal-box" class = "number-input" value="0" step="1" min="0">
+                    <button  id = "submit-decimal" class= "submit-input" onclick="submitDecimal()">Submit</button>
+                </div>
+                <div id="binary">
+                    <h3 class = "header-3">Binary</h3>
+                    <input type = "number" id = "binary-box" class = "number-input" value="0" step="1" min="0">
+                    <input type = "submit" id = "submit-binary" class= "submit-input" onclick="submitBinary()">
+                </div>
+                <div id="hexadecimal">
+                    <h3 class = "header-3">Hexadecimal</h3>
+                    <input type = "text" id = "hexadecimal-box" class = "text-input">
+                    <input type = "submit" id = "submit-hexadecimal" class= "submit-input" onclick="submitHexadecimal()">
+                </div>
+            </div>
+            <div id="results">
+                <h3>Results:</h3>
+                <p id="decimal-results">Decimal: </p>
+                <p id="binary-results">Binary: </p>
+                <p id="hexadecimal-results">Hexadecimal: </p>
+            </div>
+        </div>
+        <script src="NumberSystems.js"></script>
+    </body>
+</html>
