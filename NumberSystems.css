@@ -31,6 +31,7 @@ body {
     width: 50%;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.4px;
+    word-wrap: break-word;
 }
 
 .header-3 {
